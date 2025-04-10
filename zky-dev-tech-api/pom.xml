@@ -21,10 +21,8 @@
             <artifactId>lombok</artifactId>
         </dependency>
         <dependency>
-            <groupId>group.springframework.ai</groupId>
+            <groupId>org.springframework.ai</groupId>
             <artifactId>spring-ai-core</artifactId>
-            <version>1.0.4</version>
-            <type>pom</type>
         </dependency>
     </dependencies>
 

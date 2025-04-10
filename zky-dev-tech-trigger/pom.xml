@@ -17,29 +17,21 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
+        <!--        <dependency>-->
+        <!--            <groupId>org.springframework.ai</groupId>-->
+        <!--            <artifactId>spring-ai-openai-spring-boot-starter</artifactId>-->
+        <!--        </dependency>-->
+        <!--        <dependency>-->
+        <!--            <groupId>org.springframework.ai</groupId>-->
+        <!--            <artifactId>spring-ai-tika-document-reader</artifactId>-->
+        <!--        </dependency>-->
+        <!--        <dependency>-->
+        <!--            <groupId>org.springframework.ai</groupId>-->
+        <!--            <artifactId>spring-ai-pgvector-store</artifactId>-->
+        <!--        </dependency>-->
         <dependency>
-            <groupId>group.springframework.ai</groupId>
-            <artifactId>spring-ai-openai-spring-boot-starter</artifactId>
-            <version>1.0.4</version>
-            <type>pom</type>
-        </dependency>
-        <dependency>
-            <groupId>group.springframework.ai</groupId>
-            <artifactId>spring-ai-tika-document-reader</artifactId>
-            <version>1.0.4</version>
-            <type>pom</type>
-        </dependency>
-        <dependency>
-            <groupId>group.springframework.ai</groupId>
-            <artifactId>spring-ai-pgvector-store</artifactId>
-            <version>1.0.4</version>
-            <type>pom</type>
-        </dependency>
-        <dependency>
-            <groupId>group.springframework.ai</groupId>
+            <groupId>org.springframework.ai</groupId>
             <artifactId>spring-ai-ollama</artifactId>
-            <version>1.0.4</version>
-            <type>pom</type>
         </dependency>
 
         <dependency>
@@ -71,6 +63,7 @@
         </dependency>
 
     </dependencies>
+
 
     <build>
         <finalName>zky-dev-tech-trigger</finalName>

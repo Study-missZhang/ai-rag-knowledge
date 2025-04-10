@@ -1,0 +1,93 @@
+25-04-10.11:47:07.418 [main            ] INFO  Application            - Starting Application using Java 17.0.9 with PID 19060 (D:\java\KnowledgePlanet\ai-rag-knowledge\zky-dev-tech-app\target\classes started by zhangkaiyuan in D:\java\KnowledgePlanet\ai-rag-knowledge)
+25-04-10.11:47:07.421 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-04-10.11:47:08.586 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-10.11:47:08.591 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-04-10.11:47:08.646 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 24 ms. Found 0 Redis repository interfaces.
+25-04-10.11:47:09.362 [main            ] ERROR AprLifecycleListener   - An incompatible version [1.2.26] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.34]
+25-04-10.11:47:09.750 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port 8090 (http)
+25-04-10.11:47:09.771 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8090"]
+25-04-10.11:47:09.774 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-04-10.11:47:09.774 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/10.1.19]
+25-04-10.11:47:09.902 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-04-10.11:47:09.902 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2404 ms
+25-04-10.11:47:10.060 [main            ] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ollamaController': Injection of resource dependencies failed
+25-04-10.11:47:10.064 [main            ] INFO  StandardService        - Stopping service [Tomcat]
+25-04-10.11:47:10.083 [main            ] INFO  ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+25-04-10.11:47:10.118 [main            ] ERROR LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'org.springframework.ai.ollama.OllamaChatClient' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.ai.ollama.OllamaChatClient' in your configuration.
+
+25-04-10.12:35:28.966 [main            ] INFO  Application            - Starting Application using Java 17.0.9 with PID 17480 (D:\java\KnowledgePlanet\ai-rag-knowledge\zky-dev-tech-app\target\classes started by zhangkaiyuan in D:\java\KnowledgePlanet\ai-rag-knowledge)
+25-04-10.12:35:28.970 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-04-10.12:35:30.414 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-10.12:35:30.421 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-04-10.12:35:30.492 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 36 ms. Found 0 Redis repository interfaces.
+25-04-10.12:35:31.014 [main            ] ERROR AprLifecycleListener   - An incompatible version [1.2.26] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.34]
+25-04-10.12:35:31.402 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port 8090 (http)
+25-04-10.12:35:31.430 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8090"]
+25-04-10.12:35:31.434 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-04-10.12:35:31.434 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/10.1.19]
+25-04-10.12:35:31.552 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-04-10.12:35:31.552 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2407 ms
+25-04-10.12:35:32.742 [main            ] INFO  Version                - Redisson 3.44.0
+25-04-10.12:35:33.391 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for 117.72.35.255/117.72.35.255:16379
+25-04-10.12:35:33.698 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 117.72.35.255/117.72.35.255:16379
+25-04-10.12:35:35.639 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8090"]
+25-04-10.12:35:35.663 [main            ] INFO  TomcatWebServer        - Tomcat started on port 8090 (http) with context path ''
+25-04-10.12:35:35.678 [main            ] INFO  Application            - Started Application in 8.196 seconds (process running for 9.867)
+25-04-10.12:37:54.299 [main            ] INFO  Application            - Starting Application using Java 17.0.9 with PID 3924 (D:\java\KnowledgePlanet\ai-rag-knowledge\zky-dev-tech-app\target\classes started by zhangkaiyuan in D:\java\KnowledgePlanet\ai-rag-knowledge)
+25-04-10.12:37:54.303 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-04-10.12:37:55.940 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-10.12:37:55.948 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-04-10.12:37:56.019 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 37 ms. Found 0 Redis repository interfaces.
+25-04-10.12:37:56.793 [main            ] ERROR AprLifecycleListener   - An incompatible version [1.2.26] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.34]
+25-04-10.12:37:57.184 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port 8090 (http)
+25-04-10.12:37:57.204 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8090"]
+25-04-10.12:37:57.207 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-04-10.12:37:57.207 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/10.1.19]
+25-04-10.12:37:57.338 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-04-10.12:37:57.339 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2950 ms
+25-04-10.12:37:58.425 [main            ] INFO  Version                - Redisson 3.44.0
+25-04-10.12:37:59.004 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for 117.72.35.255/117.72.35.255:16379
+25-04-10.12:38:00.316 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 117.72.35.255/117.72.35.255:16379
+25-04-10.12:38:01.807 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8090"]
+25-04-10.12:38:01.823 [main            ] INFO  TomcatWebServer        - Tomcat started on port 8090 (http) with context path ''
+25-04-10.12:38:01.835 [main            ] INFO  Application            - Started Application in 8.877 seconds (process running for 10.713)
+25-04-10.12:38:23.417 [http-nio-8090-exec-1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25-04-10.12:38:23.417 [http-nio-8090-exec-1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+25-04-10.12:38:23.419 [http-nio-8090-exec-1] INFO  DispatcherServlet      - Completed initialization in 2 ms
+25-04-10.12:42:23.253 [main            ] INFO  Application            - Starting Application using Java 17.0.9 with PID 15100 (D:\java\KnowledgePlanet\ai-rag-knowledge\zky-dev-tech-app\target\classes started by zhangkaiyuan in D:\java\KnowledgePlanet\ai-rag-knowledge)
+25-04-10.12:42:23.258 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-04-10.12:42:24.375 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-10.12:42:24.383 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-04-10.12:42:24.449 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 26 ms. Found 0 Redis repository interfaces.
+25-04-10.12:42:24.921 [main            ] ERROR AprLifecycleListener   - An incompatible version [1.2.26] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.34]
+25-04-10.12:42:25.276 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port 8090 (http)
+25-04-10.12:42:25.293 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8090"]
+25-04-10.12:42:25.296 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-04-10.12:42:25.297 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/10.1.19]
+25-04-10.12:42:25.412 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-04-10.12:42:25.413 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2044 ms
+25-04-10.12:42:26.406 [main            ] INFO  Version                - Redisson 3.44.0
+25-04-10.12:42:27.078 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 117.72.35.255/117.72.35.255:16379
+25-04-10.12:42:27.386 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 117.72.35.255/117.72.35.255:16379
+25-04-10.12:42:28.734 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8090"]
+25-04-10.12:42:28.752 [main            ] INFO  TomcatWebServer        - Tomcat started on port 8090 (http) with context path ''
+25-04-10.12:42:28.767 [main            ] INFO  Application            - Started Application in 6.53 seconds (process running for 7.957)
+25-04-10.12:42:53.393 [http-nio-8090-exec-1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25-04-10.12:42:53.394 [http-nio-8090-exec-1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+25-04-10.12:42:53.396 [http-nio-8090-exec-1] INFO  DispatcherServlet      - Completed initialization in 2 ms
+25-04-10.12:43:24.781 [http-nio-8090-exec-3] WARN  DefaultHandlerExceptionResolver - Resolved [org.springframework.web.context.request.async.AsyncRequestTimeoutException]
