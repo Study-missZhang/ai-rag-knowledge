@@ -91,3 +91,45 @@ Consider defining a bean of type 'org.springframework.ai.ollama.OllamaChatClient
 25-04-10.12:42:53.394 [http-nio-8090-exec-1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
 25-04-10.12:42:53.396 [http-nio-8090-exec-1] INFO  DispatcherServlet      - Completed initialization in 2 ms
 25-04-10.12:43:24.781 [http-nio-8090-exec-3] WARN  DefaultHandlerExceptionResolver - Resolved [org.springframework.web.context.request.async.AsyncRequestTimeoutException]
+25-04-10.21:33:33.208 [main            ] INFO  Application            - Starting Application using Java 17.0.9 with PID 15928 (D:\java\KnowledgePlanet\ai-rag-knowledge\zky-dev-tech-app\target\classes started by zhangkaiyuan in D:\java\KnowledgePlanet\ai-rag-knowledge)
+25-04-10.21:33:33.211 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-04-10.21:33:34.351 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-10.21:33:34.358 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-04-10.21:33:34.423 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 26 ms. Found 0 Redis repository interfaces.
+25-04-10.21:33:35.224 [main            ] ERROR AprLifecycleListener   - An incompatible version [1.2.26] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.34]
+25-04-10.21:33:35.588 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port 8090 (http)
+25-04-10.21:33:35.603 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8090"]
+25-04-10.21:33:35.606 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-04-10.21:33:35.607 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/10.1.19]
+25-04-10.21:33:35.703 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-04-10.21:33:35.704 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2420 ms
+25-04-10.21:33:36.764 [main            ] INFO  Version                - Redisson 3.44.0
+25-04-10.21:33:37.384 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for 117.72.35.255/117.72.35.255:16379
+25-04-10.21:33:37.753 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 117.72.35.255/117.72.35.255:16379
+25-04-10.21:33:38.961 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8090"]
+25-04-10.21:33:38.978 [main            ] INFO  TomcatWebServer        - Tomcat started on port 8090 (http) with context path ''
+25-04-10.21:33:38.998 [main            ] INFO  Application            - Started Application in 6.915 seconds (process running for 8.698)
+25-04-10.21:33:52.210 [http-nio-8090-exec-2] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25-04-10.21:33:52.211 [http-nio-8090-exec-2] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+25-04-10.21:33:52.212 [http-nio-8090-exec-2] INFO  DispatcherServlet      - Completed initialization in 1 ms
+25-04-10.21:39:16.796 [main            ] INFO  Application            - Starting Application using Java 17.0.9 with PID 7780 (D:\java\KnowledgePlanet\ai-rag-knowledge\zky-dev-tech-app\target\classes started by zhangkaiyuan in D:\java\KnowledgePlanet\ai-rag-knowledge)
+25-04-10.21:39:16.800 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-04-10.21:39:18.254 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-10.21:39:18.258 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-04-10.21:39:18.316 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 33 ms. Found 0 Redis repository interfaces.
+25-04-10.21:39:18.822 [main            ] ERROR AprLifecycleListener   - An incompatible version [1.2.26] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.34]
+25-04-10.21:39:19.184 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port 8090 (http)
+25-04-10.21:39:19.203 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8090"]
+25-04-10.21:39:19.206 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-04-10.21:39:19.207 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/10.1.19]
+25-04-10.21:39:19.308 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-04-10.21:39:19.308 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2355 ms
+25-04-10.21:39:20.445 [main            ] INFO  Version                - Redisson 3.44.0
+25-04-10.21:39:21.075 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 117.72.35.255/117.72.35.255:16379
+25-04-10.21:39:21.451 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 117.72.35.255/117.72.35.255:16379
+25-04-10.21:39:22.950 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8090"]
+25-04-10.21:39:22.973 [main            ] INFO  TomcatWebServer        - Tomcat started on port 8090 (http) with context path ''
+25-04-10.21:39:22.988 [main            ] INFO  Application            - Started Application in 7.463 seconds (process running for 8.808)
+25-04-10.21:42:24.543 [http-nio-8090-exec-1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25-04-10.21:42:24.544 [http-nio-8090-exec-1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+25-04-10.21:42:24.546 [http-nio-8090-exec-1] INFO  DispatcherServlet      - Completed initialization in 2 ms

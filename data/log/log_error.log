@@ -19,3 +19,5 @@ Consider defining a bean of type 'org.springframework.ai.ollama.OllamaChatClient
 25-04-10.12:37:56.793 [main            ] ERROR AprLifecycleListener   - An incompatible version [1.2.26] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.34]
 25-04-10.12:42:24.921 [main            ] ERROR AprLifecycleListener   - An incompatible version [1.2.26] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.34]
 25-04-10.12:43:24.781 [http-nio-8090-exec-3] WARN  DefaultHandlerExceptionResolver - Resolved [org.springframework.web.context.request.async.AsyncRequestTimeoutException]
+25-04-10.21:33:35.224 [main            ] ERROR AprLifecycleListener   - An incompatible version [1.2.26] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.34]
+25-04-10.21:39:18.822 [main            ] ERROR AprLifecycleListener   - An incompatible version [1.2.26] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.34]
