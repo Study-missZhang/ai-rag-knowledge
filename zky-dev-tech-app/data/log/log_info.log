@@ -1,0 +1,90 @@
+25-04-11.00:18:19.933 [main            ] WARN  DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/D:/maven/apache-maven-3.8.4/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/D:/maven/apache-maven-3.8.4/repository/org/json/json/20231013/json-20231013.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+25-04-11.00:18:19.988 [main            ] INFO  RAGTest                - Starting RAGTest using Java 17.0.9 with PID 7832 (started by zhangkaiyuan in D:\java\KnowledgePlanet\ai-rag-knowledge\zky-dev-tech-app)
+25-04-11.00:18:19.990 [main            ] INFO  RAGTest                - The following 1 profile is active: "dev"
+25-04-11.00:18:21.686 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-11.00:18:21.695 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-04-11.00:18:21.801 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 52 ms. Found 0 Redis repository interfaces.
+25-04-11.00:18:24.018 [main            ] INFO  HikariDataSource       - HikariCP - Starting...
+25-04-11.00:18:24.686 [main            ] INFO  HikariPool             - HikariCP - Added connection org.postgresql.jdbc.PgConnection@49371497
+25-04-11.00:18:24.691 [main            ] INFO  HikariDataSource       - HikariCP - Start completed.
+25-04-11.00:18:27.862 [main            ] INFO  Version                - Redisson 3.44.0
+25-04-11.00:18:28.426 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for 117.72.35.255/117.72.35.255:16379
+25-04-11.00:18:28.742 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 117.72.35.255/117.72.35.255:16379
+25-04-11.00:18:28.949 [main            ] ERROR AprLifecycleListener   - An incompatible version [1.2.26] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.34]
+25-04-11.00:18:30.143 [main            ] INFO  RAGTest                - Started RAGTest in 11.228 seconds (process running for 13.599)
+25-04-11.00:18:31.509 [main            ] INFO  RAGTest                - 开始上传文档处理...
+25-04-11.00:18:31.509 [main            ] INFO  RAGTest                - 正在读取文件: ./data/file.text
+25-04-11.00:18:32.872 [main            ] INFO  RAGTest                - 文档读取完成，原始文档数量: 1
+25-04-11.00:18:32.873 [main            ] INFO  RAGTest                - 开始文档切分...
+25-04-11.00:18:32.896 [main            ] INFO  RAGTest                - 文档切分完成，切分后文档数量: 1
+25-04-11.00:18:32.896 [main            ] INFO  RAGTest                - 为文档添加元数据标记...
+25-04-11.00:18:32.898 [main            ] INFO  RAGTest                - 元数据添加完成
+25-04-11.00:18:32.898 [main            ] INFO  RAGTest                - 开始向PostgreSQL向量数据库写入文档...
+25-04-11.00:18:33.593 [main            ] INFO  RAGTest                - 文档处理完成，共处理文档1个，切分后文档1个
+25-04-11.00:18:34.191 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariCP - Shutdown initiated...
+25-04-11.00:18:34.238 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariCP - Shutdown completed.
+25-04-11.00:19:57.585 [main            ] WARN  DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/D:/maven/apache-maven-3.8.4/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/D:/maven/apache-maven-3.8.4/repository/org/json/json/20231013/json-20231013.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+25-04-11.00:19:57.631 [main            ] INFO  RAGTest                - Starting RAGTest using Java 17.0.9 with PID 3944 (started by zhangkaiyuan in D:\java\KnowledgePlanet\ai-rag-knowledge\zky-dev-tech-app)
+25-04-11.00:19:57.633 [main            ] INFO  RAGTest                - The following 1 profile is active: "dev"
+25-04-11.00:19:59.261 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-11.00:19:59.268 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-04-11.00:19:59.324 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 24 ms. Found 0 Redis repository interfaces.
+25-04-11.00:20:01.227 [main            ] INFO  HikariDataSource       - HikariCP - Starting...
+25-04-11.00:20:01.944 [main            ] INFO  HikariPool             - HikariCP - Added connection org.postgresql.jdbc.PgConnection@7b03e61d
+25-04-11.00:20:01.950 [main            ] INFO  HikariDataSource       - HikariCP - Start completed.
+25-04-11.00:20:03.590 [main            ] INFO  Version                - Redisson 3.44.0
+25-04-11.00:20:04.115 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 117.72.35.255/117.72.35.255:16379
+25-04-11.00:20:04.495 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 117.72.35.255/117.72.35.255:16379
+25-04-11.00:20:04.725 [main            ] ERROR AprLifecycleListener   - An incompatible version [1.2.26] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.34]
+25-04-11.00:20:06.075 [main            ] INFO  RAGTest                - Started RAGTest in 9.671 seconds (process running for 11.875)
+25-04-11.00:20:07.510 [main            ] INFO  RAGTest                - 用户提问：张洁那一年出生？她的老公是谁？最爱谁？
+25-04-11.00:20:07.511 [main            ] INFO  RAGTest                - 系统提示模板已设置
+25-04-11.00:20:07.511 [main            ] INFO  RAGTest                - 开始向量数据库相似度搜索，查询: 张洁那一年出生？她的老公是谁？最爱谁？
+25-04-11.00:20:07.664 [main            ] INFO  RAGTest                - 搜索参数: topK=5, 过滤条件=knowledge == '知识库名称'
+25-04-11.00:20:08.236 [main            ] INFO  RAGTest                - 搜索完成，找到相关文档数量: 1
+25-04-11.00:20:08.236 [main            ] INFO  RAGTest                - 文档[1]内容片段: 张洁，2000年出生，是张开元的老婆，最爱张开元！...
+25-04-11.00:20:08.239 [main            ] INFO  RAGTest                - 合并文档总长度: 25 字符
+25-04-11.00:20:08.239 [main            ] INFO  RAGTest                - 创建RAG系统消息...
+25-04-11.00:20:08.364 [main            ] INFO  RAGTest                - 消息准备完成，共 2 条消息
+25-04-11.00:20:08.364 [main            ] INFO  RAGTest                - 开始调用Ollama模型 deepseek-r1:1.5b...
+25-04-11.00:21:29.430 [main            ] INFO  RAGTest                - 模型调用完成
+25-04-11.00:21:29.431 [main            ] INFO  RAGTest                - AI回答: <think>
+好，用户让我根据提供的 DOCUMENTS信息来提供准确的回答，并且要像我这样内用。如果不确定就回答“我不知道”，但回复时要用中文。
+
+首先，分析DOCUMENTS内容：张洁2000年出生，是张开元的老婆，她说她最喜欢张开元。这里的关键点包括她的出生年份、婚姻状况以及她的爱情对象。
+
+用户的问题需要拆解成两个部分：“张洁那一年出生？她的老公是谁？最爱谁？” 我得逐一回应每个问题，并确保信息准确无误。
+
+对于“张洁那一年出生”， DOCUMENTS明确指出她是2000年出生的，所以回答应该是“是2000年出生”。
+
+接下来，“她的老公是谁？”根据文档，张洁和张开元是夫妇关系，但题目中没有提到张开元的名字。因此，这里需要重新检查。假设张开元被称为“张开元”，那么答案就是“张健是张开元的妻子。”
+
+最后，“最爱谁？”根据内容，张洁表示她最喜欢张开元，所以回答应该是“她最喜欢张开元。”
+
+在整理这些信息时，要确保每个问题的回答都符合提供的文档内容，并且用中文表达。同时，避免使用任何markdown格式，保持自然流畅的中文句子。
+
+总结一下，我需要提供三个具体的答案：出生年份、丈夫的名字和她的爱情对象。
+</think>
+
+是2000年出生  
+张健是张开元的妻子  
+她最喜欢张开元
+25-04-11.00:21:29.767 [main            ] INFO  RAGTest                - 完整响应: {"metadata":{"promptMetadata":{},"rateLimit":{"requestsLimit":0,"requestsRemaining":0,"requestsReset":{"nano":0,"negative":false,"seconds":0,"units":["SECONDS","NANOS"],"zero":true},"tokensLimit":0,"tokensRemaining":0,"tokensReset":{"$ref":"$.metadata.rateLimit.requestsReset"}},"usage":{"generationTokens":0,"promptTokens":0,"totalTokens":0}},"result":{"metadata":{"contentFilterMetadata":{"generationTokens":308,"promptTokens":91,"totalTokens":399},"finishReason":"unknown"},"output":{"content":"<think>\n好，用户让我根据提供的 DOCUMENTS信息来提供准确的回答，并且要像我这样内用。如果不确定就回答“我不知道”，但回复时要用中文。\n\n首先，分析DOCUMENTS内容：张洁2000年出生，是张开元的老婆，她说她最喜欢张开元。这里的关键点包括她的出生年份、婚姻状况以及她的爱情对象。\n\n用户的问题需要拆解成两个部分：“张洁那一年出生？她的老公是谁？最爱谁？” 我得逐一回应每个问题，并确保信息准确无误。\n\n对于“张洁那一年出生”， DOCUMENTS明确指出她是2000年出生的，所以回答应该是“是2000年出生”。\n\n接下来，“她的老公是谁？”根据文档，张洁和张开元是夫妇关系，但题目中没有提到张开元的名字。因此，这里需要重新检查。假设张开元被称为“张开元”，那么答案就是“张健是张开元的妻子。”\n\n最后，“最爱谁？”根据内容，张洁表示她最喜欢张开元，所以回答应该是“她最喜欢张开元。”\n\n在整理这些信息时，要确保每个问题的回答都符合提供的文档内容，并且用中文表达。同时，避免使用任何markdown格式，保持自然流畅的中文句子。\n\n总结一下，我需要提供三个具体的答案：出生年份、丈夫的名字和她的爱情对象。\n</think>\n\n是2000年出生  \n张健是张开元的妻子  \n她最喜欢张开元","media":[],"messageType":"ASSISTANT","properties":{}}},"results":[{"$ref":"$.metadata.rateLimit.result"}]}
+25-04-11.00:21:29.834 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariCP - Shutdown initiated...
+25-04-11.00:21:29.838 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariCP - Shutdown completed.
