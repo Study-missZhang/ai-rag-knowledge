@@ -48,8 +48,8 @@ public class RAGTest {
     @Test
     public void upload(){
         log.info("开始上传文档处理...");
-        log.info("正在读取文件: ./data/file.text");
-        TikaDocumentReader reader = new TikaDocumentReader("./data/file.text");
+        log.info("正在读取文件: ./data/file.txt");
+        TikaDocumentReader reader = new TikaDocumentReader("./data/file.txt");
 
         List<Document> documents = reader.get();
         log.info("文档读取完成，原始文档数量: {}", documents.size());
